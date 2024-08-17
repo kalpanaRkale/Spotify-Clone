@@ -37,12 +37,110 @@
                     </div>
                 </div>
                 <div class="lib-boxes">
-
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div> 
+                    <div class="box">
+                        <p class="box-p1">Let's find soem podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="main-content"></div>
-        <div class="music-player"></div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="backward">
+                    <img src="./assets/forward_icon.png" class="hide" alt="forward">
+                </div>
+                <div class="sticky-nav-buttons">
+                    <button class="badge dark-badge">Sign up</button>
+                    <button class="badge">Log in</button>
+                    <i class="fa-regular fa-user" class="hide"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks..</p>
+                </div>
+            </div>
+
+            <h2>Popular Albums</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/card2img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sonna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Heeriye(feat.Arijit Singh)</p>
+                    <p class="card-info">Jasleen Royal, Dulquer Salman, Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Perfect</p>
+                    <p class="card-info">Ed Sheeran</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card7img.jpg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">love hotel</p>
+                    <p class="card-info">leftovermax</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card8img.jpg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Sajni(From "Laapataa Ladies")</p>
+                    <p class="card-info">Ram Sampath,Arijit Singh,Prashant Pandey</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/card5img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Top Global Songs</p>
+                    <p class="card-info">Your weekly updates of the most played tracks right now - Global..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your weekly updates of the most played tracks right now - India..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card1img.jpeg" alt="top 50 - global" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right now - Global..</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="icon1" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="icon2" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="icon3" class="player-control-icon" style=" opacity: 1; height: 2.5rem; ">
+                    <img src="./assets/player_icon4.png" alt="icon4" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="icon5" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" id="playback" step="1">
+                    <span class="total-time">3:51</span>
+                </div>
+            </div>
+            <div class="controls"> </div>
+        </div>
     </div>
 </body>
 </html>
